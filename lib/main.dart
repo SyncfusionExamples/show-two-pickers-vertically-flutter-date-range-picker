@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_datepicker/datepicker.dart';
 
-void main() => runApp(VerticalPicker());
+void main() => runApp(const VerticalPicker());
 
 class VerticalPicker extends StatelessWidget {
+  const VerticalPicker({super.key});
+
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
